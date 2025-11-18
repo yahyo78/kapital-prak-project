@@ -4,7 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import Mybutton from "@/components/Mybutton";
 import { Suspense } from "react";
-import Loading from "./loading";
+import Loading from '@/app/[locale]/loading';
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/src/i18n/rounting";
 import { notFound } from "next/navigation";
